@@ -1,0 +1,150 @@
+Estrutura e Planejamento do Projeto
+Nome do Projeto
+Game Legends
+
+Descrição Geral
+Este projeto será uma página web interativa que apresenta personagens marcantes de jogos modernos, explicando seu impacto cultural nos games e entre os fãs. Ele terá seções bem definidas, com conteúdo visual e textual. Será feito utilizando HTML, CSS e JavaScript, permitindo a prática de conceitos básicos e intermediários de desenvolvimento front-end.
+
+Estrutura do Projeto
+
+Topo (Header)
+Menu de navegação: Links para as seções do site (Introdução, Kratos, Joel, Deacon St. John, Arthur Morgan).
+Logo ou Título: Um título "Game Legends" ou algo similar.
+
+Introdução
+Texto introdutório sobre o que os personagens representam para o universo dos games, abordando sua popularidade e conexão emocional com os fãs.
+
+Seções dos Personagens
+Cada seção incluirá:
+Nome do personagem.
+Imagem de destaque.
+Pequena descrição do personagem e do jogo em que aparece.
+Um botão ou link para "Saber Mais" (pode abrir um alerta ou expandir informações com JavaScript).
+
+Rodapé (Footer)
+Links para redes sociais fictícias.
+Créditos do autor.
+Direitos autorais fictícios.
+
+Funcionalidades do Projeto
+Navegação Suave
+
+O menu no topo permitirá rolagem suave para as seções correspondentes (usando JavaScript).
+Efeitos de Hover
+
+Quando o usuário passar o mouse sobre os botões ou imagens, haverá mudanças visuais (exemplo: aumento do tamanho ou alteração de cores).
+Interatividade nos Botões
+
+Cada personagem terá um botão "Saber Mais", que abrirá uma caixa de diálogo ou expandirá mais informações.
+
+Responsividade
+O design será responsivo, ajustando-se para dispositivos móveis e desktops.
+Especificações de Design
+
+Paleta de Cores
+Fundo principal: #121212 (preto suave).
+Texto principal: #FFFFFF (branco).
+Detalhes: #FF4500 (laranja queimado), #6A5ACD (azul violeta), #228B22 (verde floresta).
+Links e botões: #FFD700 (amarelo dourado).
+Fontes
+
+Título e Destaques: "Poppins", sans-serif.
+Texto regular: "Roboto", sans-serif.
+Fonte reserva: Arial.
+
+Medidas
+Largura máxima: 1200px (centrado na tela).
+Margens internas: 20px.
+Espaçamento entre seções: 60px.
+Altura mínima das imagens: 300px.
+
+Conteúdo de Cada Personagem
+Kratos (God of War)
+
+Descrição: Um semideus espartano que busca redenção e enfrenta deuses em uma jornada emocional e épica. Representa a evolução narrativa nos jogos.
+Joel (The Last of Us)
+
+Descrição: Um homem endurecido por tragédias que encontra uma nova razão para viver ao proteger Ellie em um mundo pós-apocalíptico.
+Deacon St. John (Days Gone)
+
+Descrição: Um motociclista que enfrenta hordas de zumbis enquanto busca sentido em um mundo devastado pela pandemia.
+Arthur Morgan (Red Dead Redemption 2)
+
+Descrição: Um fora-da-lei com uma bússola moral, vivendo no final da era do Velho Oeste. Sua complexidade o torna memorável.
+Dicas para Desenvolvimento
+
+HTML
+Use header, nav, section e footer para estruturar semântica.
+Adicione IDs nas seções para navegação suave.
+
+CSS
+Trabalhe com flexbox ou grid para layout.
+Defina estilos globais para fontes e cores no :root.
+Use transições para hover e interatividade.
+
+JavaScript
+Implemente rolagem suave usando o método scrollIntoView.
+Manipule classes para mostrar ou esconder informações adicionais ao clicar no botão "Saber Mais".
+Testes
+
+Verifique a responsividade no modo mobile.
+Certifique-se de que os links do menu funcionem corretamente.
+
+Topo (Header)
+Fundo: #121212 (preto suave).
+Texto do menu: #FFFFFF (branco).
+Hover nos links do menu: #FFD700 (amarelo dourado).
+Borda inferior do topo (para separação): #6A5ACD (azul violeta), espessura de 2px.
+Introdução
+Fundo: #1C1C1C (preto levemente mais claro que o topo).
+Título: #FFD700 (amarelo dourado).
+Texto: #FFFFFF (branco).
+Linha divisória (separador): #FF4500 (laranja queimado).
+Seções dos Personagens
+Cada personagem terá uma cor de fundo personalizada para criar contraste:
+
+Kratos
+Fundo: #2F4F4F (cinza escuro com tonalidade verde).
+Título e Nome do Personagem: #FFD700 (amarelo dourado).
+Texto: #FFFFFF (branco).
+Borda da imagem: #FF4500 (laranja queimado).
+Botão "Saber Mais":
+Fundo: #6A5ACD (azul violeta).
+Texto: #FFFFFF (branco).
+Hover: Fundo #FFD700, texto #121212.
+
+Joel
+Fundo: #4B0082 (índigo).
+Título e Nome do Personagem: #FFD700 (amarelo dourado).
+Texto: #FFFFFF (branco).
+Borda da imagem: #228B22 (verde floresta).
+Botão "Saber Mais":
+Fundo: #FF4500 (laranja queimado).
+Texto: #FFFFFF (branco).
+Hover: Fundo #6A5ACD, texto #121212.
+
+Deacon St. John
+Fundo: #1E90FF (azul claro escuro).
+Título e Nome do Personagem: #FFD700 (amarelo dourado).
+Texto: #FFFFFF (branco).
+Borda da imagem: #6A5ACD (azul violeta).
+Botão "Saber Mais":
+Fundo: #228B22 (verde floresta).
+Texto: #FFFFFF (branco).
+Hover: Fundo #FFD700, texto #121212.
+
+Arthur Morgan
+Fundo: #8B4513 (marrom escuro).
+Título e Nome do Personagem: #FFD700 (amarelo dourado).
+Texto: #FFFFFF (branco).
+Borda da imagem: #FF4500 (laranja queimado).
+Botão "Saber Mais":
+Fundo: #6A5ACD (azul violeta).
+Texto: #FFFFFF (branco).
+Hover: Fundo #FFD700, texto #121212.
+Rodapé (Footer)
+Fundo: #121212 (preto suave).
+Texto: #FFFFFF (branco).
+Links (redes sociais): #FFD700 (amarelo dourado).
+Hover nos links: #FF4500 (laranja queimado).
+Linha divisória no rodapé: #6A5ACD (azul violeta).
