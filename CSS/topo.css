@@ -4,7 +4,6 @@ header{
     background-color: #121212;
     color: #fff;
     width: 100%;
-    padding: 5px;
     position: fixed;
     border-bottom: 3px solid #FF4500;
     display: flex;
@@ -47,6 +46,7 @@ h1, span{
     text-decoration: none;
     color: #fff;
     font-size: 17px;
+    height: 100%;
 }
 
 button{
@@ -54,8 +54,38 @@ button{
     background-color: #121212;
     border: none;
     cursor: pointer;
+    position: relative;
 }
 
 button img{
     width: 25px;
+}
+
+.box_link_personagens{
+    background-color: #121212;
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+}
+
+.box_link_personagens a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-decoration: none;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.box_link_personagens a:hover{
+    transition: all 0.3s;
+    background-color: #FF4500;
 }
