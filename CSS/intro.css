@@ -1,0 +1,16 @@
+.box_introducao{
+    height: 30vh;
+    width: 100%;
+}
+
+.introducao_content{
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
