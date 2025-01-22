@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*KRATOS*/
+.box_personagens{
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box_kratos{
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+}
+
+.box_conteudo_kratos{
+    width: 100%;
+    padding: 0 60px;
+}
+
+.box_conteudo_kratos p{
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.box_divisao{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+figure{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+.div_conteudo{
+    width: 50%;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.div_conteudo p{
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+
+

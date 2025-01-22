@@ -57,6 +57,7 @@ h1, span{
 
 .item_nav:hover{
     background-color: #FF4500;
+    transition: 0.4s ease-in-out;
 }
 
 button{
@@ -100,7 +101,6 @@ button img{
 }
 
 .box_link_personagens a:hover{
-    transition: all 0.3s;
+    transition: 0.4s ease-in-out;
     background-color: #121212;
-
 }

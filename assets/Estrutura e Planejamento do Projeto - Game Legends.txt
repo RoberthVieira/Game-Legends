@@ -52,11 +52,6 @@ Título e Destaques: "Poppins", sans-serif.
 Texto regular: "Roboto", sans-serif.
 Fonte reserva: Arial.
 
-Medidas
-Largura máxima: 1200px (centrado na tela).
-Margens internas: 20px.
-Espaçamento entre seções: 60px.
-Altura mínima das imagens: 300px.
 
 Conteúdo de Cada Personagem
 Kratos (God of War)

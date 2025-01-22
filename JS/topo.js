@@ -36,6 +36,11 @@ btn.addEventListener("click", function(){
 
         btn.appendChild(divOpcoesPersonagens);
         seta.src = "assets/IMG/seta-para-cima.png"
+
+        divOpcoesPersonagens.addEventListener('mouseleave', () => {
+            divOpcoesPersonagens.remove();
+            seta.src = "assets/IMG/seta-para-baixo.png";
+        })
     }
 
 })
