@@ -3,92 +3,60 @@
 
 
 /*KRATOS*/
-.box_personagens{
-    background-color: #121212;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.box_kratos h2,
+.box_kratos h3,
+.box_kratos strong{
+    color: #A41E1E;
+}
+
+.box_kratos .line{
+    background-color: #A41E1E;
 }
 
 .box_kratos{
-    max-width: 1200px;
-    margin: 60px auto;
-    display: flex;
+    width: 100%;
 }
 
 .box_conteudo_kratos{
     width: 100%;
-    padding: 0 60px;
-}
+    display: flex;
+    flex-direction: column;
 
-.box_conteudo_kratos h2, .box_conteudo_kratos h3, .box_conteudo_kratos strong{
-    color: #A41E1E;
-}
-
-.box_conteudo_kratos .line{
-    background-color: #A41E1E;
+    align-items: center;
+    gap: 20px;
 }
 
 .box_conteudo_kratos p{
-    line-height: 25px;
-    font-size: 14px;
     letter-spacing: 4px;
-}
-
-.box_divisao{
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-
-figure{
-    width: 50%;
-}
-
-img{
-    width: 100%;
-}
-
-.div_conteudo{
-    width: 50%;
-    padding: 20px 0;
+    font-size: 14px;
+    line-height: 20px;
     text-align: justify;
 }
 
-.div_conteudo p{
-    line-height: 25px;
-    font-size: 14px;
-    letter-spacing: 4px;
+.box_conteudo_personagem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.box_video{
+.box_divisao{
     width: 100%;
-    margin: 25px 0;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .esconder{
     display: none;
 }
 
-.box_btn{
-    width: 100%;
-    height: 25px;
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
+.box_conteudo_kratos .box_btn{
+    height: 40px;
 }
 
-.btn_saber_mais{
-    text-align: center;
+.box_conteudo_kratos .box_btn .btn_saber_mais{
     background-color: #A41E1E;
-    padding: 20px;
-    height: 25px;
-    border-radius: 20px;
-}
-
-.btn_saber_mais:hover{
-    padding: 19px;
+    color: #fff;
 }

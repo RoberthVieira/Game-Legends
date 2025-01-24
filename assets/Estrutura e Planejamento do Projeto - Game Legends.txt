@@ -107,6 +107,7 @@ Botão "Saber Mais":
 Fundo: #6A5ACD (azul violeta).
 Texto: #FFFFFF (branco).
 Hover: Fundo #FFD700, texto #121212.
+#A41E1E
 
 Joel
 Fundo: #4B0082 (índigo).
