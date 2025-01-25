@@ -28,9 +28,40 @@ h3{
     letter-spacing: 4px;
 }
 
+.secao_personagens{
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
 .ajuste_tamanho{
     max-width: 1200px;
     margin: 60px auto;
+}
+
+.secao_personagens p{
+    letter-spacing: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.box_conteudo_personagem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_divisao{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .line{
@@ -47,20 +78,24 @@ h3{
     background-size: cover;
 }
 
-.secao_personagens{
-    background-color: #121212;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
 
-.btn_saber_mais{
+.btn_saber_mais,
+.btn_joel{
     padding: 10px;
     border-radius: 25px;
     font-weight: bold;
 }
 
-.btn_saber_mais:hover{
+.box_btn{
+    height: 40px;
+}
+
+.btn_saber_mais:hover,
+.btn_joel:hover{
     padding: 9px;
+}
+
+.esconder,
+.escondido{
+    display: none;
 }

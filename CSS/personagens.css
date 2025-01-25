@@ -21,42 +21,38 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-
     align-items: center;
     gap: 20px;
-}
-
-.box_conteudo_kratos p{
-    letter-spacing: 4px;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: justify;
-}
-
-.box_conteudo_personagem{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.box_divisao{
-    width: 100%;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.esconder{
-    display: none;
-}
-
-.box_conteudo_kratos .box_btn{
-    height: 40px;
 }
 
 .box_conteudo_kratos .box_btn .btn_saber_mais{
     background-color: #A41E1E;
+    color: #fff;
+}
+
+/*JOEL*/
+.box_joel{
+    width: 100%;
+    background-color: #556B2F;
+}
+
+.box_conteudo_joel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box_joel h2,
+.box_joel h3{
+    color: #2F2F2F;
+}
+
+.box_joel .line{
+    background-color: #2F2F2F;
+}
+
+.box_conteudo_joel .btn_joel{
     color: #fff;
 }
