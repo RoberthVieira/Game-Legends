@@ -33,7 +33,6 @@ h3{
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 30px;
 }
 
 
@@ -67,7 +66,7 @@ h3{
 .line{
     width: 100%;
     height: 2px;
-    margin: 2px 0;
+    margin: 3px 0;
 }
 
 .banner{
@@ -80,7 +79,8 @@ h3{
 
 
 .btn_saber_mais,
-.btn_joel{
+.btn_joel,
+.btn_deacon{
     padding: 10px;
     border-radius: 25px;
     font-weight: bold;
@@ -91,11 +91,13 @@ h3{
 }
 
 .btn_saber_mais:hover,
-.btn_joel:hover{
+.btn_joel:hover,
+.btn_deacon:hover{
     padding: 9px;
 }
 
 .esconder,
-.escondido{
+.escondido,
+.esconde{
     display: none;
 }

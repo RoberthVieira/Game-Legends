@@ -138,6 +138,7 @@ Botão "Saber Mais":
 Fundo: #6A5ACD (azul violeta).
 Texto: #FFFFFF (branco).
 Hover: Fundo #FFD700, texto #121212.
+
 Rodapé (Footer)
 Fundo: #121212 (preto suave).
 Texto: #FFFFFF (branco).
