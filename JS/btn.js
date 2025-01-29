@@ -4,6 +4,8 @@ const btnJoel = document.querySelector('.btn_joel');
 const clicado2 = document.querySelector('.escondido');
 const btnDeacon = document.querySelector('.btn_deacon');
 const clicado3 = document.querySelector('.esconde');
+const btnArthur = document.querySelector('.btn_arthur');
+const clicado4 = document.querySelector('.escond')
 
 
 btnSaberMais.addEventListener("click", () => {
@@ -35,4 +37,14 @@ btnDeacon.addEventListener("click", () => {
     } else {
         btnDeacon.innerHTML = 'Fechar';
     }
-})
+});
+
+btnArthur.addEventListener("click", () => {
+    const estaEscondido = clicado4.classList.toggle('escond');
+
+    if(estaEscondido){
+        btnArthur.innerHTML = 'Clique aqui para saber mais';
+    } else {
+        btnArthur.innerHTML = 'Fechar';
+    }
+});
